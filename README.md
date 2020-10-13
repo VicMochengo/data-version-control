@@ -1,15 +1,10 @@
-# Data Version Control Tutorial
+# Data Version Control application reference 
 
-Example repository for the [Data Version Control With Python and DVC](https://realpython.com/python-data-version-control/) article on [Real Python](https://realpython.com/).
+This repo provides codebase for how to apply data version control alongside:
+* Git, 
+* Machine Learning, 
+* data pipelines
 
-To use this repo as part of the tutorial, you first need to get your own copy. Click the _Fork_ button in the top-right corner of the screen, and select your private account in the window that pops up. GitHub will create a forked copy of the repository under your account.
+The ML model uses the imagenette dataset to build an image classifier
 
-Clone the forked repository to your computer with the `git clone` command
-
-```console
-git clone git@github.com:YourUsername/data-version-control.git
-```
-
-Make sure to replace `YourUsername` in the above command with your actual GitHub username.
-
-Happy coding!
+Virtual environment variables: conda create --name dvc python=3.8.3 -y
